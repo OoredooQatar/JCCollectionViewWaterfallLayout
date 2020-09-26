@@ -50,26 +50,26 @@ static NSString * const reuseCellId = @"cellId";
 {
     [self.activityView startAnimating];
     
-    NSString *url = [@"http://image.haosou.com/j?q=banana&pn=20" stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
-    
-    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"application/javascript"];
-    AFHTTPRequestOperation *operation = [manager HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        [self.activityView stopAnimating];
-        
-        NSArray *list = [NSJSONSerialization JSONObjectWithData:operation.responseData options:NSJSONReadingMutableContainers error:nil][@"list"];
-        
-        [self.pictures addObjectsFromArray:list];
-        
-        [self.collectionView reloadData];
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        [self.activityView stopAnimating];
-        
-        NSLog(@"error - %@", [error localizedDescription]);
-    }];
-    
-    [[NSOperationQueue mainQueue] addOperation:operation];
+//    NSString *url = [@"http://image.haosou.com/j?q=banana&pn=20" stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
+//    
+//    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+//    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"application/javascript"];
+//    AFHTTPRequestOperation *operation = [manager HTTPRequestOperationWithRequest:request success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        [self.activityView stopAnimating];
+//        
+//        NSArray *list = [NSJSONSerialization JSONObjectWithData:operation.responseData options:NSJSONReadingMutableContainers error:nil][@"list"];
+//        
+//        [self.pictures addObjectsFromArray:list];
+//        
+//        [self.collectionView reloadData];
+//    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+//        [self.activityView stopAnimating];
+//        
+//        NSLog(@"error - %@", [error localizedDescription]);
+//    }];
+//    
+//    [[NSOperationQueue mainQueue] addOperation:operation];
 }
 
 #pragma mark - UICollectionViewDelegate & UICollectionViewDataSource 

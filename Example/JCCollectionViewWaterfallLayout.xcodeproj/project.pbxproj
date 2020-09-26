@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C0F988A960C5D01FE67F3CE /* libPods-JCCollectionViewWaterfallLayout_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8464F1EAE7754182298A326D /* libPods-JCCollectionViewWaterfallLayout_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		76BA35B28FB80156C9B5B1D9 /* Pods_JCCollectionViewWaterfallLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6210DCEF525592A753B9DD5 /* Pods_JCCollectionViewWaterfallLayout_Example.framework */; };
+		7A2F8E169BC1E55C0355C746 /* libPods-JCCollectionViewWaterfallLayout_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F548BF7C0393BE2964BD17FD /* libPods-JCCollectionViewWaterfallLayout_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C787E3761B465A39BE40D8A1 /* libPods-JCCollectionViewWaterfallLayout_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC0E35CBBC802EF5EE11CDD /* libPods-JCCollectionViewWaterfallLayout_Tests.a */; };
 		F302E1DB1B20542200C5F6D3 /* JCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F302E1DA1B20542200C5F6D3 /* JCCollectionViewCell.m */; };
 		F302E1DE1B205A6800C5F6D3 /* JCCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F302E1DD1B205A6800C5F6D3 /* JCCollectionHeaderView.m */; };
 		F302E1E11B205A7C00C5F6D3 /* JCCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F302E1E01B205A7C00C5F6D3 /* JCCollectionFooterView.m */; };
@@ -39,7 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5BC0E35CBBC802EF5EE11CDD /* libPods-JCCollectionViewWaterfallLayout_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JCCollectionViewWaterfallLayout_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		083534CC32AD689FA387AC8B /* Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JCCollectionViewWaterfallLayout_Tests/Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB84AFFDB2822D12E0176C4 /* Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-JCCollectionViewWaterfallLayout_Tests/Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JCCollectionViewWaterfallLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCCollectionViewWaterfallLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,19 +61,18 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		676C829CDFDE967DE4C66EDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		7B00A20D97736EFA1DE072C0 /* Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Tests/Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8464F1EAE7754182298A326D /* libPods-JCCollectionViewWaterfallLayout_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JCCollectionViewWaterfallLayout_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7667A8D1F3F3AF247B38D5C4 /* Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		98DF3B8688A041AB97C52A38 /* Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C8A1799BEC69513782BEF134 /* Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D27CDFE02EA40CBD6FBC442C /* JCCollectionViewWaterfallLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JCCollectionViewWaterfallLayout.podspec; path = ../JCCollectionViewWaterfallLayout.podspec; sourceTree = "<group>"; };
-		DB7965AAB395A67E96E3D80C /* Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Tests/Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE25C8ADBD2A6A305D3A0666 /* Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig"; path = "Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B6210DCEF525592A753B9DD5 /* Pods_JCCollectionViewWaterfallLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCCollectionViewWaterfallLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27CDFE02EA40CBD6FBC442C /* JCCollectionViewWaterfallLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JCCollectionViewWaterfallLayout.podspec; path = ../JCCollectionViewWaterfallLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F302E1D91B20542200C5F6D3 /* JCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCollectionViewCell.h; sourceTree = "<group>"; };
 		F302E1DA1B20542200C5F6D3 /* JCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCollectionViewCell.m; sourceTree = "<group>"; };
 		F302E1DC1B205A6800C5F6D3 /* JCCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCollectionHeaderView.h; sourceTree = "<group>"; };
 		F302E1DD1B205A6800C5F6D3 /* JCCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCollectionHeaderView.m; sourceTree = "<group>"; };
 		F302E1DF1B205A7C00C5F6D3 /* JCCollectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCollectionFooterView.h; sourceTree = "<group>"; };
 		F302E1E01B205A7C00C5F6D3 /* JCCollectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCollectionFooterView.m; sourceTree = "<group>"; };
+		F548BF7C0393BE2964BD17FD /* libPods-JCCollectionViewWaterfallLayout_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JCCollectionViewWaterfallLayout_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB186DD118A67E0A498E8E06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +84,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2C0F988A960C5D01FE67F3CE /* libPods-JCCollectionViewWaterfallLayout_Example.a in Frameworks */,
+				76BA35B28FB80156C9B5B1D9 /* Pods_JCCollectionViewWaterfallLayout_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,24 +95,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C787E3761B465A39BE40D8A1 /* libPods-JCCollectionViewWaterfallLayout_Tests.a in Frameworks */,
+				7A2F8E169BC1E55C0355C746 /* libPods-JCCollectionViewWaterfallLayout_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A60586A0EDA7A50BB6E48FF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C8A1799BEC69513782BEF134 /* Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig */,
-				98DF3B8688A041AB97C52A38 /* Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig */,
-				7B00A20D97736EFA1DE072C0 /* Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig */,
-				DB7965AAB395A67E96E3D80C /* Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +110,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				0A60586A0EDA7A50BB6E48FF /* Pods */,
+				FCFFC73582E5A20F9C2DC476 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +130,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8464F1EAE7754182298A326D /* libPods-JCCollectionViewWaterfallLayout_Example.a */,
-				5BC0E35CBBC802EF5EE11CDD /* libPods-JCCollectionViewWaterfallLayout_Tests.a */,
+				B6210DCEF525592A753B9DD5 /* Pods_JCCollectionViewWaterfallLayout_Example.framework */,
+				F548BF7C0393BE2964BD17FD /* libPods-JCCollectionViewWaterfallLayout_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,6 +197,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		FCFFC73582E5A20F9C2DC476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE25C8ADBD2A6A305D3A0666 /* Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig */,
+				7667A8D1F3F3AF247B38D5C4 /* Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig */,
+				083534CC32AD689FA387AC8B /* Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig */,
+				4AB84AFFDB2822D12E0176C4 /* Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,11 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "JCCollectionViewWaterfallLayout_Example" */;
 			buildPhases = (
-				6EBB01B0037812803AB09B86 /* Check Pods Manifest.lock */,
+				25F54BD71CB28621AABFB1D5 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				937220089CB3B723161BE7C4 /* Copy Pods Resources */,
+				66EE6AAE192504C1FEF9E6D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,11 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "JCCollectionViewWaterfallLayout_Tests" */;
 			buildPhases = (
-				FD95DBCE05C76FD6D202271C /* Check Pods Manifest.lock */,
+				E90346E4965B2CAE15E92D08 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				7C0D0EF03E5AECB5B7A42738 /* Copy Pods Resources */,
+				54A864F13B955751AABAA7A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -306,64 +307,86 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6EBB01B0037812803AB09B86 /* Check Pods Manifest.lock */ = {
+		25F54BD71CB28621AABFB1D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCCollectionViewWaterfallLayout_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C0D0EF03E5AECB5B7A42738 /* Copy Pods Resources */ = {
+		54A864F13B955751AABAA7A2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Tests/Pods-JCCollectionViewWaterfallLayout_Tests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/JCCollectionViewWaterfallLayout-library/JCCollectionViewWaterfallLayout.bundle",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JCCollectionViewWaterfallLayout.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Tests/Pods-JCCollectionViewWaterfallLayout_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Tests/Pods-JCCollectionViewWaterfallLayout_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		937220089CB3B723161BE7C4 /* Copy Pods Resources */ = {
+		66EE6AAE192504C1FEF9E6D7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-framework/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JCCollectionViewWaterfallLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD95DBCE05C76FD6D202271C /* Check Pods Manifest.lock */ = {
+		E90346E4965B2CAE15E92D08 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCCollectionViewWaterfallLayout_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -494,13 +517,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8A1799BEC69513782BEF134 /* Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig */;
+			baseConfigurationReference = AE25C8ADBD2A6A305D3A0666 /* Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCCollectionViewWaterfallLayout/JCCollectionViewWaterfallLayout-Prefix.pch";
 				INFOPLIST_FILE = "JCCollectionViewWaterfallLayout/JCCollectionViewWaterfallLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -510,13 +534,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98DF3B8688A041AB97C52A38 /* Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig */;
+			baseConfigurationReference = 7667A8D1F3F3AF247B38D5C4 /* Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCCollectionViewWaterfallLayout/JCCollectionViewWaterfallLayout-Prefix.pch";
 				INFOPLIST_FILE = "JCCollectionViewWaterfallLayout/JCCollectionViewWaterfallLayout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -526,7 +551,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B00A20D97736EFA1DE072C0 /* Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig */;
+			baseConfigurationReference = 083534CC32AD689FA387AC8B /* Pods-JCCollectionViewWaterfallLayout_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -549,7 +574,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB7965AAB395A67E96E3D80C /* Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig */;
+			baseConfigurationReference = 4AB84AFFDB2822D12E0176C4 /* Pods-JCCollectionViewWaterfallLayout_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

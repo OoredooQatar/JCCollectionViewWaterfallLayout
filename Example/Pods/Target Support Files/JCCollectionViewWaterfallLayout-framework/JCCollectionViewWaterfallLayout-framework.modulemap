@@ -1,0 +1,6 @@
+framework module JCCollectionViewWaterfallLayout {
+  umbrella header "JCCollectionViewWaterfallLayout-framework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,37 +1,37 @@
 PODS:
-  - AFNetworking (2.5.4):
-    - AFNetworking/NSURLConnection (= 2.5.4)
-    - AFNetworking/NSURLSession (= 2.5.4)
-    - AFNetworking/Reachability (= 2.5.4)
-    - AFNetworking/Security (= 2.5.4)
-    - AFNetworking/Serialization (= 2.5.4)
-    - AFNetworking/UIKit (= 2.5.4)
-  - AFNetworking/NSURLConnection (2.5.4):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.4):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.4)
-  - AFNetworking/Security (2.5.4)
-  - AFNetworking/Serialization (2.5.4)
-  - AFNetworking/UIKit (2.5.4):
-    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - JCCollectionViewWaterfallLayout (0.0.1):
-    - AFNetworking (~> 2.5.4)
+  - JCCollectionViewWaterfallLayout (0.0.2):
+    - AFNetworking (~> 3.2.0)
 
 DEPENDENCIES:
   - JCCollectionViewWaterfallLayout (from `../`)
 
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+
 EXTERNAL SOURCES:
   JCCollectionViewWaterfallLayout:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
-  JCCollectionViewWaterfallLayout: 61a1911420c6bf4075ea9925012cf33985903319
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  JCCollectionViewWaterfallLayout: dd093bd116942b4ea2a69fe837b586b572bf7ff6
 
-COCOAPODS: 0.37.0
+PODFILE CHECKSUM: 287bea7aa248b543b67ebd963e7965819b898273
+
+COCOAPODS: 1.9.3
