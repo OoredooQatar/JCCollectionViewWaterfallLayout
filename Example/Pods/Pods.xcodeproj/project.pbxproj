@@ -1105,11 +1105,12 @@
 			};
 			name = Debug;
 		};
-		2646B7BD146B42AA2281D57306E45AFD /* Debug */ = {
+		26C27C38567690CB24C22AD68BC0405F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50E19D502E90AAC4940DDE5A04090E3A /* Pods-JCCollectionViewWaterfallLayout_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1121,7 +1122,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example.modulemap";
@@ -1138,11 +1139,12 @@
 			};
 			name = Debug;
 		};
-		28EAA3768E916B28D64EEC1F6A6FC329 /* Release */ = {
+		29FFDB4D782DA1A462B65C672375A3BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A111047D84C5F37B0E660E3A1CC0DE52 /* Pods-JCCollectionViewWaterfallLayout_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1154,7 +1156,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JCCollectionViewWaterfallLayout_Example/Pods-JCCollectionViewWaterfallLayout_Example.modulemap";
@@ -1169,6 +1171,23 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C401B003EB4893F16BC0FD129D4CEC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B72E4F40AE7B546F92969A26074A02 /* JCCollectionViewWaterfallLayout-library.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCCollectionViewWaterfallLayout-library";
+				IBSC_MODULE = JCCollectionViewWaterfallLayout;
+				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-library/ResourceBundle-JCCollectionViewWaterfallLayout-JCCollectionViewWaterfallLayout-library-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = JCCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1193,6 +1212,47 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CCB05E84C39A64AB2F21AA9028A51C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329870F241A07BCAA4157ED24C25261F /* JCCollectionViewWaterfallLayout-library.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JCCollectionViewWaterfallLayout-library/JCCollectionViewWaterfallLayout-library-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JCCollectionViewWaterfallLayout;
+				PRODUCT_NAME = "JCCollectionViewWaterfallLayout-library";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C464E3BB87378FB928BAAA186BBDBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB8ED1C5F560691E9A95648AD18F83F /* JCCollectionViewWaterfallLayout-framework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCCollectionViewWaterfallLayout-framework";
+				IBSC_MODULE = JCCollectionViewWaterfallLayout;
+				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/ResourceBundle-JCCollectionViewWaterfallLayout-JCCollectionViewWaterfallLayout-framework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = JCCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1256,50 +1316,45 @@
 			};
 			name = Release;
 		};
-		6EFD3A88919F96DE77EB837C21874729 /* Debug */ = {
+		523580E8EF9218CDF98F00992A3C1261 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 329870F241A07BCAA4157ED24C25261F /* JCCollectionViewWaterfallLayout-library.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/JCCollectionViewWaterfallLayout-library/JCCollectionViewWaterfallLayout-library-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = JCCollectionViewWaterfallLayout;
-				PRODUCT_NAME = "JCCollectionViewWaterfallLayout-library";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7260BA93DC1B8BB31510D0E51D64BFC5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CB8ED1C5F560691E9A95648AD18F83F /* JCCollectionViewWaterfallLayout-framework.release.xcconfig */;
+			baseConfigurationReference = 9C0B4B2DE0964D349A6365AF321A6E68 /* JCCollectionViewWaterfallLayout-framework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCCollectionViewWaterfallLayout-framework";
 				IBSC_MODULE = JCCollectionViewWaterfallLayout;
 				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/ResourceBundle-JCCollectionViewWaterfallLayout-JCCollectionViewWaterfallLayout-framework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = JCCollectionViewWaterfallLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		7309FE9DC2066B80D68666F4D5187E69 /* Release */ = {
+		5FBB396CA09B1CBA8D6B6658C7A40B09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329870F241A07BCAA4157ED24C25261F /* JCCollectionViewWaterfallLayout-library.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCCollectionViewWaterfallLayout-library";
+				IBSC_MODULE = JCCollectionViewWaterfallLayout;
+				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-library/ResourceBundle-JCCollectionViewWaterfallLayout-JCCollectionViewWaterfallLayout-library-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = JCCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		82F16855560125989CA076A388E88C4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CB8ED1C5F560691E9A95648AD18F83F /* JCCollectionViewWaterfallLayout-framework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1312,7 +1367,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework.modulemap";
 				PRODUCT_MODULE_NAME = JCCollectionViewWaterfallLayout;
@@ -1327,33 +1382,48 @@
 			};
 			name = Release;
 		};
-		8997BE60FB25D5224490E58AD10AE4BC /* Debug */ = {
+		8B2EFD114507D11ED61E0511C28B506E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 329870F241A07BCAA4157ED24C25261F /* JCCollectionViewWaterfallLayout-library.debug.xcconfig */;
+			baseConfigurationReference = 9C0B4B2DE0964D349A6365AF321A6E68 /* JCCollectionViewWaterfallLayout-framework.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCCollectionViewWaterfallLayout-library";
-				IBSC_MODULE = JCCollectionViewWaterfallLayout;
-				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-library/ResourceBundle-JCCollectionViewWaterfallLayout-JCCollectionViewWaterfallLayout-library-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework.modulemap";
+				PRODUCT_MODULE_NAME = JCCollectionViewWaterfallLayout;
 				PRODUCT_NAME = JCCollectionViewWaterfallLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		9B6FEEBF8B853AC83E3D84922BFDE6A5 /* Release */ = {
+		BFE52B3B9BFEF0945FBA563A44300E2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1B72E4F40AE7B546F92969A26074A02 /* JCCollectionViewWaterfallLayout-library.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/JCCollectionViewWaterfallLayout-library/JCCollectionViewWaterfallLayout-library-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1367,23 +1437,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		B1649012E953BC37565D82137572A028 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C0B4B2DE0964D349A6365AF321A6E68 /* JCCollectionViewWaterfallLayout-framework.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCCollectionViewWaterfallLayout-framework";
-				IBSC_MODULE = JCCollectionViewWaterfallLayout;
-				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/ResourceBundle-JCCollectionViewWaterfallLayout-JCCollectionViewWaterfallLayout-framework-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = JCCollectionViewWaterfallLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		C4E0A7AB7266A59AF4D73A7E46F6C6BB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1502,61 +1555,14 @@
 			};
 			name = Debug;
 		};
-		E60793BFF14B754335997E1C47C7B346 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C0B4B2DE0964D349A6365AF321A6E68 /* JCCollectionViewWaterfallLayout-framework.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-framework/JCCollectionViewWaterfallLayout-framework.modulemap";
-				PRODUCT_MODULE_NAME = JCCollectionViewWaterfallLayout;
-				PRODUCT_NAME = JCCollectionViewWaterfallLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F7B5A95680A82CB5E724532095D10A8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1B72E4F40AE7B546F92969A26074A02 /* JCCollectionViewWaterfallLayout-library.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCCollectionViewWaterfallLayout-library";
-				IBSC_MODULE = JCCollectionViewWaterfallLayout;
-				INFOPLIST_FILE = "Target Support Files/JCCollectionViewWaterfallLayout-library/ResourceBundle-JCCollectionViewWaterfallLayout-JCCollectionViewWaterfallLayout-library-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = JCCollectionViewWaterfallLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0D704E139C94B2C766F7EDB992CC5658 /* Build configuration list for PBXNativeTarget "Pods-JCCollectionViewWaterfallLayout_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2646B7BD146B42AA2281D57306E45AFD /* Debug */,
-				28EAA3768E916B28D64EEC1F6A6FC329 /* Release */,
+				26C27C38567690CB24C22AD68BC0405F /* Debug */,
+				29FFDB4D782DA1A462B65C672375A3BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1564,8 +1570,8 @@
 		33C88F4B2873DB99087BEFC7FEE471F3 /* Build configuration list for PBXNativeTarget "JCCollectionViewWaterfallLayout-framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E60793BFF14B754335997E1C47C7B346 /* Debug */,
-				7309FE9DC2066B80D68666F4D5187E69 /* Release */,
+				8B2EFD114507D11ED61E0511C28B506E /* Debug */,
+				82F16855560125989CA076A388E88C4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1573,8 +1579,8 @@
 		3FB3DADBEF7F0AAB43296BD3E2B81A5A /* Build configuration list for PBXNativeTarget "JCCollectionViewWaterfallLayout-framework-JCCollectionViewWaterfallLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1649012E953BC37565D82137572A028 /* Debug */,
-				7260BA93DC1B8BB31510D0E51D64BFC5 /* Release */,
+				523580E8EF9218CDF98F00992A3C1261 /* Debug */,
+				4C464E3BB87378FB928BAAA186BBDBDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1591,8 +1597,8 @@
 		5F98FF095245FC02A502E5103553FEA6 /* Build configuration list for PBXNativeTarget "JCCollectionViewWaterfallLayout-library-JCCollectionViewWaterfallLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8997BE60FB25D5224490E58AD10AE4BC /* Debug */,
-				F7B5A95680A82CB5E724532095D10A8B /* Release */,
+				5FBB396CA09B1CBA8D6B6658C7A40B09 /* Debug */,
+				2C401B003EB4893F16BC0FD129D4CEC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1618,8 +1624,8 @@
 		90B88B6708A500CCA10E43BEC1461657 /* Build configuration list for PBXNativeTarget "JCCollectionViewWaterfallLayout-library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EFD3A88919F96DE77EB837C21874729 /* Debug */,
-				9B6FEEBF8B853AC83E3D84922BFDE6A5 /* Release */,
+				3CCB05E84C39A64AB2F21AA9028A51C8 /* Debug */,
+				BFE52B3B9BFEF0945FBA563A44300E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
